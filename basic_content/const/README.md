@@ -76,6 +76,7 @@ int main(){
 ```
 
 <p><font style="color:red">小结：可以发现未被const修饰的变量不需要extern显式声明！而const常量需要显式声明extern，并且需要做初始化！因为常量在定义后就不能被修改，所以定义时必须初始化。</font></p>
+
 ## 4.定义常量
 
 ```c++
@@ -186,7 +187,7 @@ ptr是一个const指针，然后指向了一个int 类型的const对象。
 
 ## 6.函数中使用const
 
-> cost修饰函数返回值
+> const修饰函数返回值
 
 这个跟const修饰普通变量以及指针的含义基本相同：
 
